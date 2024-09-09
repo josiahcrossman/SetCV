@@ -336,5 +336,5 @@ def processing(image):
             print(card)
             frame_list.append(card.get_image())
         show_all_cards(frame_list)
-game = cv2.imread(r'setImages\WIN_20240714_15_58_19_Pro.jpg')
+game = cv2.imread(r'setImages\testSet.jpg')
 processing(game)
